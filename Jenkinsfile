@@ -4,7 +4,7 @@ agent any
 stages {
 stage('checkout') {
 steps {
-git url: 'https://github.com/askvedant18/CI_CD_Pipeline.git' branch: 'main'
+git url: 'https://github.com/askvedant18/CI_CD_Pipeline.git', branch: 'main'
 }
 }
 stage('build') {
